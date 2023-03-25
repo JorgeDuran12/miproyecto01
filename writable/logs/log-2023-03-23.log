@@ -1,0 +1,619 @@
+CRITICAL - 2023-03-23 14:28:49 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:28:54 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:28:54 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:28:58 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:33:39 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:35:03 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:35:08 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:35:09 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:35:09 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:35:09 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:35:11 --> Undefined array key "nom_dpto"
+in APPPATH\Views\municipios\municipios.php on line 40.
+ 1 APPPATH\Views\municipios\municipios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_dpto"', 'APPPATH\\Views\\municipios\\municipios.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:39:54 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 0 passed in C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php on line 21 and exactly 1 expected
+in APPPATH\Models\MunicipiosModel.php on line 76.
+ 1 APPPATH\Controllers\Municipios.php(21): App\Models\MunicipiosModel->traer_municipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:39:56 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 0 passed in C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php on line 21 and exactly 1 expected
+in APPPATH\Models\MunicipiosModel.php on line 76.
+ 1 APPPATH\Controllers\Municipios.php(21): App\Models\MunicipiosModel->traer_municipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:41:23 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 0 passed in C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php on line 21 and exactly 1 expected
+in APPPATH\Models\MunicipiosModel.php on line 76.
+ 1 APPPATH\Controllers\Municipios.php(21): App\Models\MunicipiosModel->traer_municipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:46:46 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 0 passed in C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php on line 21 and exactly 1 expected
+in APPPATH\Models\MunicipiosModel.php on line 76.
+ 1 APPPATH\Controllers\Municipios.php(21): App\Models\MunicipiosModel->traer_municipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:46:56 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 0 passed in C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php on line 21 and exactly 1 expected
+in APPPATH\Models\MunicipiosModel.php on line 76.
+ 1 APPPATH\Controllers\Municipios.php(21): App\Models\MunicipiosModel->traer_municipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:48:12 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:48:22 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:49:00 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:49:00 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:51:46 --> Undefined array key "nombre_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:55:41 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:57:22 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 14:59:20 --> Undefined array key "nombre_pais"
+in APPPATH\Views\municipios\municipios.php on line 39.
+ 1 APPPATH\Views\municipios\municipios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_pais"', 'APPPATH\\Views\\municipios\\municipios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(25): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:14:15 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\eliminados.php on line 40.
+ 1 APPPATH\Views\municipios\eliminados.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\eliminados.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:15:13 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\eliminados.php on line 40.
+ 1 APPPATH\Views\municipios\eliminados.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\eliminados.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:15:22 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\eliminados.php on line 40.
+ 1 APPPATH\Views\municipios\eliminados.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\eliminados.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:15:27 --> Undefined array key "nom_pais"
+in APPPATH\Views\municipios\eliminados.php on line 40.
+ 1 APPPATH\Views\municipios\eliminados.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_pais"', 'APPPATH\\Views\\municipios\\eliminados.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:15:50 --> Undefined variable $muni
+in APPPATH\Views\municipios\eliminados.php on line 37.
+ 1 APPPATH\Views\municipios\eliminados.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $muni', 'APPPATH\\Views\\municipios\\eliminados.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:15:52 --> Undefined variable $muni
+in APPPATH\Views\municipios\eliminados.php on line 37.
+ 1 APPPATH\Views\municipios\eliminados.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $muni', 'APPPATH\\Views\\municipios\\eliminados.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:17:42 --> Undefined variable $muni
+in APPPATH\Views\municipios\eliminados.php on line 37.
+ 1 APPPATH\Views\municipios\eliminados.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $muni', 'APPPATH\\Views\\municipios\\eliminados.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:18:06 --> Undefined variable $muni
+in APPPATH\Views\municipios\eliminados.php on line 37.
+ 1 APPPATH\Views\municipios\eliminados.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $muni', 'APPPATH\\Views\\municipios\\eliminados.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 15:18:42 --> Undefined variable $muni
+in APPPATH\Views\municipios\eliminados.php on line 37.
+ 1 APPPATH\Views\municipios\eliminados.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $muni', 'APPPATH\\Views\\municipios\\eliminados.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('municipios/eliminados', [], true)
+ 5 APPPATH\Controllers\Municipios.php(36): view('municipios/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 20:51:24 --> Call to undefined method App\Models\MunicipiosModel::obtenerMunicipio
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Empleados.php(23): CodeIgniter\Model->__call('obtenerMunicipio', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Empleados->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 20:51:31 --> Call to undefined method App\Models\MunicipiosModel::obtenerMunicipio
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Empleados.php(23): CodeIgniter\Model->__call('obtenerMunicipio', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Empleados->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 21:09:31 --> Undefined variable $paises
+in APPPATH\Views\municipios\municipios.php on line 82.
+ 1 APPPATH\Views\municipios\municipios.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paises', 'APPPATH\\Views\\municipios\\municipios.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(30): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 21:09:45 --> Undefined variable $paises
+in APPPATH\Views\municipios\municipios.php on line 82.
+ 1 APPPATH\Views\municipios\municipios.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paises', 'APPPATH\\Views\\municipios\\municipios.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\municipios\\municipios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/municipios/municipios', [], true)
+ 5 APPPATH\Controllers\Municipios.php(30): view('/municipios/municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:38 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:38 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:39 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:39 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:39 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:39 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:40 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:40 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:40 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:40 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:42 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:42 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 21:35:48 --> mysqli_sql_exception: Unknown column 'paises.nombres' in 'field list' in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto1\app\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-23 21:35:48 --> Unknown column 'paises.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `departamentos`.`nombre` as `nom_dpto`, `paises`.`nombres` as `nom_pais`
+FROM `municipios`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(54): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 21:37:30 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\miproyecto1\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join('departamentos,municipios.id_dpto=departamentos.id')
+ 2 APPPATH\Models\MunicipiosModel.php(51): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-23 22:37:33 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`municipios`, CONSTRAINT `municipios_ibfk_1` FOREIGN KEY (`id_dpto`) REFERENCES `departamentos` (`id`)) in C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\xampp\htdocs\miproyecto1\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\xampp\htdocs\miproyecto1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\xampp\htdocs\miproyecto1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\miproyecto1\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\miproyecto1\app\Controllers\Municipios.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(934): App\Controllers\Municipios->insertar()
+#10 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#11 C:\xampp\htdocs\miproyecto1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\miproyecto1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-23 22:37:33 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`municipios`, CONSTRAINT `municipios_ibfk_1` FOREIGN KEY (`id_dpto`) REFERENCES `departamentos` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `municipios` (`id_dpto`, `nombre`) VALUES (:id_dpto:, :nombre:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Municipios.php(49): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->insertar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

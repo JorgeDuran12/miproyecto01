@@ -1,0 +1,1606 @@
+CRITICAL - 2023-03-12 20:23:51 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:23:53 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:23:55 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:33:11 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:33:12 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:33:12 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:33:19 --> Undefined variable $pais
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:26 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:29 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:31 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:32 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:32 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:33 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:33 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:34 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:35 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:36 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:38 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:38 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:53 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:53 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:34:54 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:36:23 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:36:24 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:36:25 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:37:21 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:38:34 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 20:38:35 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 28.
+ 1 APPPATH\Views\paises\paises.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:47:58 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:47:58 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:47:59 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:47:59 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:47:59 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:47:59 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:00 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:00 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:00 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:00 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:00 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:00 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:01 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:01 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:01 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:01 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:01 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:01 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:01 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:01 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:02 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:02 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:02 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:02 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:02 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:02 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:02 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:02 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:03 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:03 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:03 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:03 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:03 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:03 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:04 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:04 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:04 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:04 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:05 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:05 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:05 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:05 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:05 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:05 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:06 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:06 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:06 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:06 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:06 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:06 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 20:48:07 --> mysqli_sql_exception: Table 'bd_taller.pais' doesn't exist in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\Paises->index()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-12 20:48:07 --> Table 'bd_taller.pais' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pais`
+WHERE `estado` = :estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Paises.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:02:28 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:02:30 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:02:36 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:02:44 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:02:46 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:04:04 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:04:04 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:04:05 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:04:05 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:04:07 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:04:12 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:30 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:31 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:32 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:32 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:33 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:34 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:34 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:05:53 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:08:48 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:08:49 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:08:49 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:08:50 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:08:52 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:04 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:04 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:04 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:06 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:07 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:08 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:10 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:11 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:12 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:13 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:09:14 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:10:50 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:10:51 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:10:55 --> Undefined variable $pais
+in APPPATH\Views\paises\paises.php on line 32.
+ 1 APPPATH\Views\paises\paises.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'APPPATH\\Views\\paises\\paises.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\paises\\paises.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(20): view('/paises/paises', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:40:08 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:40:11 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:40:14 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:41:50 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:41:54 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:08 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:10 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:11 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:11 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:11 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:11 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:12 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:12 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:42:13 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:45:33 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:46:38 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:46:44 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:49:40 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:49:40 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:49:41 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:49:41 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:54:38 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:54:39 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 22:55:17 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 23:29:31 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 23:29:49 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 23:29:49 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 23:29:55 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 23:30:57 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Municipios.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('municipios')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('municipios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

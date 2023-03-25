@@ -1,0 +1,21 @@
+header{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.img1{
+    width: 120px;
+    height: auto;
+    padding: 10px;
+}
+.img2{
+    width: 90px;
+    height: auto;
+    padding: 10px;
+}
+
+.titulos{
+    text-align: center;
+}

@@ -1,0 +1,622 @@
+CRITICAL - 2023-03-11 14:02:52 --> Undefined variable $titulo
+in APPPATH\Views\principal\header.php on line 12.
+ 1 APPPATH\Views\principal\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\principal\\header.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/header', [], true)
+ 5 APPPATH\Controllers\paises.php(14): view('/principal/header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:04:36 --> Undefined variable $data
+in APPPATH\Controllers\paises.php on line 14.
+ 1 APPPATH\Controllers\paises.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\paises.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:04:38 --> Undefined variable $data
+in APPPATH\Controllers\paises.php on line 14.
+ 1 APPPATH\Controllers\paises.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\paises.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:04:43 --> Undefined variable $data
+in APPPATH\Controllers\paises.php on line 14.
+ 1 APPPATH\Controllers\paises.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\paises.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:34:17 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:34:25 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:34:26 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:35:28 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:35:29 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:35:35 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:17 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:18 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:18 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:19 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:19 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:20 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:36:21 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:37:09 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:37:13 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:37:22 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:45:38 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:45:43 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:45:48 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:47:05 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:47:06 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:47:06 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:47:06 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:47:07 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:48:13 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:48:14 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:48:15 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:48:15 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:48:20 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:48:29 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:52:44 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:52:44 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:52:54 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:05 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:06 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:06 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:06 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:07 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:07 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:07 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:07 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:07 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:08 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:30 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 16:53:42 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:02:43 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:04:00 --> Class "App\Nodels\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:04:11 --> Class "App\Controllers\PaisModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:05:32 --> Class "App\Nodels\PaisesModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:06:03 --> Class "App\Nodels\PaisesModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:06:03 --> Class "App\Nodels\PaisesModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:06:05 --> Class "App\Nodels\PaisesModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:08:03 --> Class "App\Nodels\PaisesModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:08:07 --> Class "App\Nodels\PaisesModel" not found
+in APPPATH\Controllers\Paises.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Paises->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:08:57 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:09:01 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:09:03 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:09:18 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:11:07 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:11:14 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:13:53 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:13:56 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:14:34 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:21:16 --> Undefined variable $paises
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paises', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:21:18 --> Undefined variable $paises
+in APPPATH\Controllers\Paises.php on line 18.
+ 1 APPPATH\Controllers\Paises.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paises', 'APPPATH\\Controllers\\Paises.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:22:38 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:22:40 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:22:41 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:22:42 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:26:36 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:26:37 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:26:39 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:26:45 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:27:19 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:27:26 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:28:06 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:28:08 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:28:09 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:28:09 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:29:21 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:36:32 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:36:39 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:40:04 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 17:40:14 --> Unclosed '{' on line 28
+in APPPATH\Views\paises\paises.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/paises/paises', [], true)
+ 3 APPPATH\Controllers\Paises.php(20): view('/paises/paises', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Paises->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
