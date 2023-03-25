@@ -13,11 +13,15 @@
     </div>
 
     <div class="botn">
-        <a href="" onclick="
-        
-        
-        (<?php echo 1 . ',' . 1 ?>);" class="btn btn-success regresar_Btn"
-            data-bs-toggle="modal" data-bs-target="#MuniModal">Agregar</a>
+        <a 
+        href="" 
+        onclick="
+        seleccionaMunicipio(<?php echo 1 . ',' . 1 ?>);" 
+        class="btn btn-success regresar_Btn"
+        data-bs-toggle="modal" 
+        data-bs-target="#MuniModal">
+        Agregar
+        </a>
         <a href="<?php echo base_url('eliminados_municipios'); ?>" class="btn btn-secondary ">Eliminados</a>
         <a href="<?php echo base_url('/principal'); ?>" class="btn btn-primary regresar_Btn">Regresar</a>
     </div>
@@ -44,7 +48,7 @@
                         <td><?php if($dato['estado']=="A"){echo "Activo";}else{echo "Eliminado";} ?></td>
 
                         <td id="inp_edita" style="height:0.2rem;width:1rem;">
-                            <input href="#" onclick="seleccionaMuni(<?php echo $dato['id'] . ',' . 2 ?>);"
+                            <input href="#" onclick="seleccionaMunicipio(<?php echo $dato['id'] . ',' . 2 ?>);"
                                 data-bs-toggle="modal" data-bs-target="#MuniModal" type="image"
                                 src="<?php echo base_url(); ?>/icons/escritura.png" width="16" height="16"
                                 title="Editar Registro">
@@ -140,12 +144,21 @@
 </body>
 
 <script>
+
+    //Modal confirma
 $('#modal-confirma').on('show.bs.modal', function(e) {
     $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
 });
 
-function seleccionaMuni(id, tp) {
-    if (tp == 2) {
+$('.close').click(function() {
+        $("#modal-confirma").modal("hide");
+    });
+
+    //Funcion selecciona municipio
+function seleccionaMunicipio( id, tp ) {
+    if( tp === 2 ) {
+        console.log('actualizando...')
+
         dataURL = "<?php echo base_url('/municipios/buscar_municipio'); ?>" + "/" + id;
         $.ajax({
             type: "POST",
@@ -156,40 +169,34 @@ function seleccionaMuni(id, tp) {
                 $("#tp").val(2);
                 $("#id").val(id);
                 $("#pais").val(rs[0]['iden_pais']);
-
-                llenar_Select(rs[0]['iden_pais'],"id_dpto",rs[0]['iden_dpto']);
-
+                
+                llenar_Select(rs[0]['iden_pais'],"dpto",rs[0]['iden_dpto']);
+                
                 $("#muni").val(rs[0]['nombre']);
                 $("#btn_Guardar").text('Actualizar');
                 $("#MunicipiosModal").modal("show");
             }
-            error: function() {
-                alert('Error en Datos de Municipios. Informe', '');                
-            }
-        })
-    } else {
+        });
+
+    }else if( tp === 1 ) {
+
         $("#tp").val(1);
         document.getElementById('exampleModalLabel').innerText = "Agregar municipio";
-         $("#codigo").val('');
-         $("#muni").val('');
-         $("#pais").innerText('Seleccione un Pais').attr('selected',true);
-         $("#btn_Guardar").text('Guardar');
-
+        $("#codigo").val('');
+        $("#muni").val('');
+        $("#pais").innerText('Seleccione un Pais').attr('selected',true);
+        $("#btn_Guardar").text('Guardar');
     }
-};
-    $('.close').click(function() {
-        $("#modal-confirma").modal("hide");
-    });
+}
 
-    // ----funcion para el select dinamico---
-   
-
-    $("#pais").on('change', function() {
+//Select de dpto
+$("#pais").on('change', function() {
       pais = $("#pais").val();           
       llenar_Select(pais,"dpto",0) 
     });
-    
-    function llenar_Select(id,name,id_sel){
+
+//Funcion para llenar select dinamicamente
+function llenar_Select(id,name,id_sel){
       dataUrl="<?php echo base_url('buscar_departamentoxpais') ?>" + '/' + id
       $.ajax({
         url: dataUrl,

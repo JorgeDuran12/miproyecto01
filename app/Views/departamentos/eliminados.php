@@ -8,9 +8,8 @@
 
   <div class="card" style="width:72rem;">
     <div class="tit">
-      <h1 class="titulo_Vista">Municipios Eliminados</h1>
-    </div>
-
+      <h1 class="titulo_Vista">Departamentos Eliminados</h1>
+    </div>E
     <div class="card-body">
 
       <div class="row col-sm-12" >

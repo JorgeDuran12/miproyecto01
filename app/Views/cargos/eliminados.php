@@ -38,7 +38,12 @@
                 <td><?php echo $dato['nombre']; ?></td>
                 <td><?php echo $dato['estado']; ?></td>
                 
-                <td style="height:0.2rem;width:1rem;"><input href="#" data-href="<?php echo base_url('/departamentos/eliminar') . '/' .$dato['id']. '/' .'A'; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma" type="image" src="<?php echo base_url(); ?>/icons/arrow-clockwise.svg" width="16" height="16" title="Activar Registro"></input></td>
+                <td style="height:0.2rem;width:1rem;">
+                <input href="#" data-href="<?php echo base_url('/cargos/eliminar') . '/' .$dato['id']. '/' .'A'; ?>" 
+                data-bs-toggle="modal" data-bs-target="#modal-confirma" type="image" src="<?php echo base_url(); ?>
+                /icons/arrow-clockwise.svg" width="16" height="16" title="Activar Registro">
+              </input>
+            </td>
 
               </tr>
             <?php } ?>
