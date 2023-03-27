@@ -78,6 +78,14 @@ class Municipios extends BaseController
             return redirect()->to(base_url('/municipios'));
         }
         
-        
+        public function buscar_MunicipiosPais($id)
+        {
+        $returnData = array();
+        $muni = $this->muni->traer_MunicipioDepartamento($id,'A');
+        if (!empty($muni)) {
+            array_push($returnData, $muni);
+        }
+        echo json_encode($returnData);
+        }
 }
 

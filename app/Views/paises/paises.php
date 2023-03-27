@@ -15,8 +15,7 @@
     </div>
 
     <div class="botn">
-        <a href="" onclick="seleccionaPais(<?php echo 1 . ',' . 1 ?>);" class="btn btn-success regresar_Btn"
-            data-bs-toggle="modal" data-bs-target="#PaisModal">Agregar</a>
+        <a href="" onclick="seleccionaPais(<?php echo 1 . ',' . 1 ?>);" class="btn btn-success regresar_Btn" data-bs-toggle="modal" data-bs-target="#PaisModal">Agregar</a>
         <a href="<?php echo base_url('eliminados_paises'); ?>" class="btn btn-secondary ">Eliminados</a>
         <a href="<?php echo base_url('/principal'); ?>" class="btn btn-primary regresar_Btn">Regresar</a>
     </div>
@@ -117,6 +116,7 @@
         </div>
     </div>
 </body>
+
 <!-- Script JS -->
 <script>
 $('#modal-confirma').on('show.bs.modal', function(e) {

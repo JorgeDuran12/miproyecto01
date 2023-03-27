@@ -36,6 +36,7 @@ $routes->get('eliminados_departamentos', 'departamentos::eliminados');
 $routes->get('eliminados_cargos', 'cargos::eliminados');
 
 $routes->post('buscar_departamentoxpais/(:num)', 'departamentos::buscar_DepartamentosPais/$1');
+$routes->post('buscar_municipioxdepartamento/(:num)', 'municipios::buscar_MunicipiosPais/$1');
 $routes->post('insertar_municipio', 'municipios::insertar');
 
 $routes->post('eliminar_municipio/(:num)', 'municipios::eliminar/$1');

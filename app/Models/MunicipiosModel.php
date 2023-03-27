@@ -64,4 +64,13 @@ class MunicipiosModel extends Model
         return $datos;
     }
     
+    public function traer_MunicipioDepartamento($id,$estado){
+        $this->select('municipios.*');   
+        $this->where('municipios.id_dpto', $id);     
+        $this->where('municipios.estado', $estado);
+        $this->orderBY('municipios.nombre');
+        $muni = $this->findAll();         
+        return $muni;
+    }
+  
 }
