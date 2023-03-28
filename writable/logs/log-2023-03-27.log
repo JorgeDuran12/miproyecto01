@@ -1,0 +1,52 @@
+ERROR - 2023-03-27 21:47:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`empleados`, CONSTRAINT `empleados_ibfk_2` FOREIGN KEY (`id_municipio`) REFERENCES `municipios` (`id`)) in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `emplead...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emplead...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emplead...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `emplead...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\miproyecto01\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Empleados.php(63): CodeIgniter\Model->update('26', Array)
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Empleados->insertar()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-27 21:47:58 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`empleados`, CONSTRAINT `empleados_ibfk_2` FOREIGN KEY (`id_municipio`) REFERENCES `municipios` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `empleados` SET `nombres` = :nombres:, `apellidos` = :apellidos:, `nacimiento` = :nacimiento:, `id_cargo` = :id_cargo:, `id_municipio` = :id_municipio:
+WHERE `empleados`.`id` IN :empleados.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Empleados.php(63): CodeIgniter\Model->update('26', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Empleados->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 21:57:13 --> Undefined variable $empleados
+in APPPATH\Views\empleados\eliminados.php on line 109.
+ 1 APPPATH\Views\empleados\eliminados.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\empleados\\eliminados.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleados\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('empleados/eliminados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(45): view('empleados/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Empleados->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 22:12:40 --> Call to undefined method App\Models\EmpleadosModel::buscatodo
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Salarios.php(22): CodeIgniter\Model->__call('buscatodo', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 22:32:03 --> Call to undefined method App\Models\EmpleadosModel::buscatodo
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Salarios.php(23): CodeIgniter\Model->__call('buscatodo', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

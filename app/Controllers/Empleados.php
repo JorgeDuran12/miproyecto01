@@ -37,13 +37,13 @@ class Empleados extends BaseController
            //echo view('/principal/principal',$data); //mostramos la vista desde el controlador y le enviamos la data necesaria, en este caso, estamos enviando el titulo
         }
 
-            // public function eliminados()
-            // {
-            //     $empl = $this->empl->traer_empleados('E');
-            //     $data = ['titulo' => 'Paises eliminados','nombre'=>'Jorge Duran', 'datos' => $empl];
-            //     echo view('/principal/header');
-            //     echo view('empleados/eliminados', $data);
-            // }
+            public function eliminados()
+            {
+                $empl = $this->empl->traer_empleados('E');
+                $data = ['titulo' => 'Paises eliminados','nombre'=>'Jorge Duran', 'datos' => $empl];
+                echo view('/principal/header');
+                echo view('/empleados/eliminados', $data);
+            }
 
             public function insertar()
             {

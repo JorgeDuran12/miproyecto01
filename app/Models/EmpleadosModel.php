@@ -31,10 +31,6 @@ class EmpleadosModel extends Model{
     //   return $datos;
     //  }
 
-    public function eliminar_empl($id,$estado){
-        $datos = $this->update($id, ['estado' => $estado]);         
-        return $datos;
-    }
     
     public function traer_empleados($estado){
         $this->select('empleados.*, municipios.nombre as N_muni, cargos.nombre as N_cargo, departamentos.nombre as N_dpto, paises.nombres as N_pais, cargos.nombre as N_cargo');
@@ -46,7 +42,7 @@ class EmpleadosModel extends Model{
         $datos = $this->findAll();
         return $datos;
     } 
-
+    
     public function seleccionar_Empleado($id,$estado){
         $this->select('empleados.*,empleados.id_municipio as iden_muni, municipios.id_dpto as iden_dpto,paises.id as iden_pais, cargos.id as iden_cargo');
         $this -> join('municipios','empleados.id_municipio=municipios.id');
@@ -58,5 +54,10 @@ class EmpleadosModel extends Model{
         $datos = $this->first();           
         return $datos;
     }
- 
+    
+    public function eliminar_empl($id,$estado){
+        $datos = $this->update($id, ['estado' => $estado]);         
+        return $datos;
+    }
+    
 }
