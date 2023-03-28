@@ -272,6 +272,7 @@ function llenar_Select(id,name,id_sel,data){
         dataType: 'json',
         success: function(res) {          
         $('#'+name).empty()
+        $('#'+name).append("<option value='0'>----------selecione un registro---------</option>");
            for (let i = 0; i < res[0].length; i++) {
             let id = res[0][i]['id'];
             let nombre = res[0][i]['nombre'];          
