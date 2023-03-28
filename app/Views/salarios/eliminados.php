@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <!-- <link rel="stylesheet" href="<?php echo base_url('/css/vistass.css'); ?>"> -->
+    <link rel="stylesheet" href="<?php echo base_url('/css/eliminados.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?>">
     <script src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?php echo base_url(); ?>/css/jquery-3.6.0.js"></script>
@@ -13,8 +13,8 @@
 <body>
 
     <div class="card" style="width:72rem;">
-        <div>
-            <h1 class="titulo_Vista">Salarios Eliminados</h1>
+        <div class="tit">
+            <h1>Salarios Eliminados</h1>
         </div>
         <div class="card-body">
 

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="<?php echo base_url('/css/salarios.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?>">
     <script src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?php echo base_url(); ?>/css/jquery-3.6.0.js"></script>
@@ -25,8 +26,8 @@
     <table class="table table-bordered table-sm table-striped" id="dataTable" width="90%" cellspacing="0">
         <thead>
             <tr class="table">
-                <th>Id salario</th>
                 <th>Id Empleado</th>
+                <th>Id salario</th>
                 <th>Nombres</th>
                 <th>Apellidos</th>
                 <th>Cargo</th>
@@ -39,8 +40,8 @@
         <tbody class="tbody">
             <?php foreach ($salarios as $dato){ ?>
             <tr>
-                <td> <?php echo $dato['id']; ?></td>
                 <td> <?php echo $dato['id_empleado']; ?></td>
+                <td> <?php echo $dato['id']; ?></td>
                 <td> <?php echo $dato['N_nombre']; ?></td>
                 <td> <?php echo $dato['N_apellido']; ?></td>
                 <td> <?php echo $dato['N_cargo']; ?></td>
@@ -171,7 +172,7 @@
                     $("#id").val(id);
                     $("#id_empleado").val(rs[0]['iden_empleado']);
                     $("#periodo").val(rs[0]['periodo']);
-                    $("#sueldo").val(rs[0]['salario']);
+                    $("#sueldo").val(rs[0]['sueldo']);
                     $("#btn_guardar").text('Actualizar');
                     $("#SalariosAgregar").modal("show");
                 }

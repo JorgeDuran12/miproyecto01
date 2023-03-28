@@ -218,9 +218,13 @@ function seleccionaEmpleado( id, tp ) {
                 $("#tp").val(2);
                 $("#id").val(id);
                 $("#pais").val(rs[0]['iden_pais']);
-                
-                llenar_Select(rs[0]['iden_pais'],"dpto",rs[0]['iden_dpto']);
-                llenar_Select(rs[0]['iden_dpto'],"municipio",rs[0]['iden_muni']);
+
+                dataUrl="<?php echo base_url('buscar_departamentoxpais') ?>" + '/' + rs[0]['iden_pais'];
+                llenar_Select(rs[0]['iden_pais'],"dpto",rs[0]['iden_dpto'], dataUrl);
+
+                $("#dpto").val(rs[0]['iden_dpto']);
+                dataUrl="<?php echo base_url('buscar_municipioxdepartamento') ?>" + '/'  + rs[0]['iden_dpto'];
+                llenar_Select(rs[0]['iden_dpto'],"municipio",rs[0]['iden_muni'], dataUrl);
                 
                 $("#nombres").val(rs[0]['nombres']);
                 $("#apellidos").val(rs[0]['apellidos']);

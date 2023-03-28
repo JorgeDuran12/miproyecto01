@@ -45,10 +45,10 @@ class EmpleadosModel extends Model{
     
     public function seleccionar_Empleado($id,$estado){
         $this->select('empleados.*,empleados.id_municipio as iden_muni, municipios.id_dpto as iden_dpto,paises.id as iden_pais, cargos.id as iden_cargo');
+        $this -> join('cargos','empleados.id_cargo=cargos.id');
         $this -> join('municipios','empleados.id_municipio=municipios.id');
         $this -> join('departamentos','municipios.id_dpto=departamentos.id');
         $this -> join('paises','departamentos.id_pais=paises.id');
-        $this -> join('cargos','empleados.id_cargo=cargos.id');
         $this->where('empleados.id',$id);
         $this ->where('empleados.estado',$estado);
         $datos = $this->first();           

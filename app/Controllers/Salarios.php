@@ -35,7 +35,7 @@ class Salarios extends BaseController
                 if ($tp == 1) {
                     $this->salario->save([
                         'id_empleado' => $this->request->getPost('id_empleado'),
-                        'salario' => $this->request->getPost('sueldo'),
+                        'sueldo' => $this->request->getPost('sueldo'),
                         'periodo' => $this->request->getPost('periodo')
                     ]);
                 } else {
@@ -53,7 +53,7 @@ class Salarios extends BaseController
         public function eliminados()
         {
             $empleado = $this->empleado->traer_empleados('E');                              
-            $salario = $this->salario->traer_salarios('E'); 
+            $salario = $this->salario->traer_salariosEliminados('E'); 
             $data = ['titulo' => 'SALARIOS ELIMINADOS', 'datos' => $salario];
     
             echo view('/principal/header');

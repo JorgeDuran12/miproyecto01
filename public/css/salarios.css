@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tit {
+    color: #ff7e5f;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .table {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 5px;
+  }
+  
+  .botn {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .tbody {
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  .editar, .eliminar {
+    height: 30px;
+  }

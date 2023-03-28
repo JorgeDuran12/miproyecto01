@@ -42,10 +42,17 @@ class SalariosModel extends Model{
     $this->listar;
     $datos = $this->first();           
     return $datos;
-
   }
 
-
+  public function traer_salariosEliminados($estado){
+    $this->select('salarios.*, cargos.nombre as N_cargo, empleados.nombres as N_nombre, empleados.apellidos as N_apellido');
+    $this->join('empleados','salarios.id_empleado=empleados.id');
+    $this->join('cargos','empleados.id_cargo=cargos.id');
+    $this->where('salarios.estado', 'E');
+    $datos = $this->findAll();
+    return $datos;
+  }
+  
   public function eliminar_salarios($id,$estado){
     $datos = $this->update($id, ['estado' => $estado]);         
     return $datos;
