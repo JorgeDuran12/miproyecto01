@@ -141,6 +141,7 @@ function seleccionaPais(id, tp) {
             }
         })
     } else {
+        
         $("#tp").val(1);
         document.getElementById('exampleModalLabel').innerText = "Agregar Pais";
         $("#codigo").val('');
@@ -152,4 +153,5 @@ function seleccionaPais(id, tp) {
     $('.close').click(function() {
         $("#modal-confirma").modal("hide");
     });
+    
 </script>

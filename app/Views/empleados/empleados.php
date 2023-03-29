@@ -104,6 +104,7 @@
                         <div>
                             <select class="form-select" aria-label="Default select example" name="dpto" id="dpto">
 
+                                <option selected>Seleciona un departamento</option>
                                 <?php foreach ($dpto as $dato) { ?>
                                 <option value="<?php echo $dato['id']; ?>"><?php echo $dato['nombre'];?></option>
 
@@ -115,6 +116,7 @@
                         <div>
                             <select class="form-select" aria-label="Default select example" name="municipio" id="municipio">
 
+                                <option selected>Seleciona un municipio</option>
                                 <?php foreach ($muni as $dato) { ?>
                                 <option value="<?php echo $dato['id']; ?>"><?php echo $dato['nombre'];?></option>
 
@@ -215,8 +217,8 @@ function seleccionaEmpleado( id, tp ) {
                 document.getElementById('exampleModalLabel').innerText = "Actualizar empleado";
                 $("#tp").val(2);
                 $("#id").val(id);
-
                 $("#pais").val(rs[0]['iden_pais']);
+
                 dataUrl="<?php echo base_url('buscar_departamentoxpais') ?>" + '/' + rs[0]['iden_pais'];
                 llenar_Select(rs[0]['iden_pais'],"dpto",rs[0]['iden_dpto'], dataUrl);
 
@@ -238,12 +240,10 @@ function seleccionaEmpleado( id, tp ) {
         $("#tp").val(1);
         document.getElementById('exampleModalLabel').innerText = "Agregar empleado";
         $("#codigo").val('');
-        // $("#pais").val('');
-        $("#dpto").val('');
         $("#nombres").val('');
         $("#apellidos").val('');
         $("#nacm").val('');
-        // $("#cargo").val('');
+        $("#cargo").val('');
         $("#municipio").val('');
         // $("#pais").innerText('Seleccione un Pais').attr('selected',true);
         $("#btn_Guardar").text('Guardar');
@@ -272,7 +272,7 @@ function llenar_Select(id,name,id_sel,data){
         dataType: 'json',
         success: function(res) {          
         $('#'+name).empty()
-        $('#'+name).append("<option value='0'>----------selecione un registro---------</option>");
+        $('#'+name).append("<option value='0'>----------seleccione un registro---------</option>");
            for (let i = 0; i < res[0].length; i++) {
             let id = res[0][i]['id'];
             let nombre = res[0][i]['nombre'];          
