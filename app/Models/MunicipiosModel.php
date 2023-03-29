@@ -46,7 +46,7 @@ class MunicipiosModel extends Model
     }
     
     public function traer_municipios($estado){
-        $this->select('municipios.*,departamentos.nombre as nom_dpto , paises.nombres as nom_pais');
+        $this->select('municipios.*,paises.nombres as nom_pais, departamentos.nombre as nom_dpto');
         $this->join('departamentos','municipios.id_dpto=departamentos.id');
         $this->join('paises','departamentos.id_pais=paises.id');
         $this->where('municipios.estado',$estado);
@@ -59,6 +59,7 @@ class MunicipiosModel extends Model
         $this->join('departamentos','municipios.id_dpto=departamentos.id');
         $this->join('paises','departamentos.id_pais=paises.id');
         $this->where('municipios.id',$id);
+        $this->orderById('municipios.id',ASC);
         $this->where('municipios.estado',$estado);
         $datos = $this->first();           
         return $datos;

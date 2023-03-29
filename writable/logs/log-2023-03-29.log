@@ -1,0 +1,588 @@
+CRITICAL - 2023-03-29 00:46:24 --> Undefined constant "App\Models\ASC"
+in APPPATH\Models\MunicipiosModel.php on line 53.
+ 1 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 00:50:19 --> mysqli_sql_exception: Unknown column 'departamentos.id_pais' in 'on clause' in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto01\app\Models\MunicipiosModel.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 00:50:19 --> Unknown column 'departamentos.id_pais' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `paises`.`nombres` as `nom_pais`, `departamentos`.`nombre` as `nom_dpto`
+FROM `municipios`
+JOIN `paises` ON `departamentos`.`id_pais`=`paises`.`id`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 00:50:21 --> mysqli_sql_exception: Unknown column 'departamentos.id_pais' in 'on clause' in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto01\app\Models\MunicipiosModel.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 00:50:21 --> Unknown column 'departamentos.id_pais' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `paises`.`nombres` as `nom_pais`, `departamentos`.`nombre` as `nom_dpto`
+FROM `municipios`
+JOIN `paises` ON `departamentos`.`id_pais`=`paises`.`id`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 00:50:21 --> mysqli_sql_exception: Unknown column 'departamentos.id_pais' in 'on clause' in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `municip...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `municip...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `municip...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municip...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\miproyecto01\app\Models\MunicipiosModel.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Municipios->index()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 00:50:21 --> Unknown column 'departamentos.id_pais' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `municipios`.*, `paises`.`nombres` as `nom_pais`, `departamentos`.`nombre` as `nom_dpto`
+FROM `municipios`
+JOIN `paises` ON `departamentos`.`id_pais`=`paises`.`id`
+JOIN `departamentos` ON `municipios`.`id_dpto`=`departamentos`.`id`
+WHERE `municipios`.`estado` = :municipios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MunicipiosModel.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Municipios.php(25): App\Models\MunicipiosModel->traer_municipios('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:00 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:01 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:01 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:14 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:15 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:16 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:25 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:40 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:41 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:42 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:04:42 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:05:09 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:05:11 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:05:12 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:05:14 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 38 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(38): App\Models\MunicipiosModel->traer_municipios('E')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:05:15 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 38 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(38): App\Models\MunicipiosModel->traer_municipios('E')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->eliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:05:16 --> Too few arguments to function App\Models\MunicipiosModel::traer_municipios(), 1 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Municipios.php on line 27 and exactly 2 expected
+in APPPATH\Models\MunicipiosModel.php on line 48.
+ 1 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:08:33 --> Call to undefined method App\Models\MunicipiosModel::order_by_desc
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\MunicipiosModel.php(53): CodeIgniter\Model->__call('order_by_desc', [...])
+ 2 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:08:34 --> Call to undefined method App\Models\MunicipiosModel::order_by_desc
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\MunicipiosModel.php(53): CodeIgniter\Model->__call('order_by_desc', [...])
+ 2 APPPATH\Controllers\Municipios.php(27): App\Models\MunicipiosModel->traer_municipios('A')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Municipios->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:05:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`)) in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `salario...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `salario...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `salario...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salario...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\miproyecto01\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:05:58 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salarios` SET `id_empleado` = :id_empleado:, `periodo` = :periodo:
+WHERE `salarios`.`id` IN :salarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:06:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`)) in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `salario...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `salario...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `salario...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salario...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\miproyecto01\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:06:17 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salarios` SET `id_empleado` = :id_empleado:, `periodo` = :periodo:
+WHERE `salarios`.`id` IN :salarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:06:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`)) in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `salario...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `salario...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `salario...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salario...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\miproyecto01\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:06:18 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salarios` SET `id_empleado` = :id_empleado:, `periodo` = :periodo:
+WHERE `salarios`.`id` IN :salarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:06:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`)) in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `salario...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `salario...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `salario...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salario...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\miproyecto01\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:06:30 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salarios` SET `id_empleado` = :id_empleado:, `periodo` = :periodo:
+WHERE `salarios`.`id` IN :salarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:06:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`)) in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `salario...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `salario...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `salario...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salario...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\miproyecto01\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:06:58 --> Cannot add or update a child row: a foreign key constraint fails (`bd_taller`.`salarios`, CONSTRAINT `salarios_ibfk_1` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `salarios` SET `id_empleado` = :id_empleado:, `periodo` = :periodo:
+WHERE `salarios`.`id` IN :salarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Salarios.php(42): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Salarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:52:52 --> Too few arguments to function App\Models\DepartamentosModel::obtenerDept(), 0 passed in C:\xampp\htdocs\miproyecto01\app\Controllers\Departamentos.php on line 21 and exactly 2 expected
+in APPPATH\Models\DepartamentosModel.php on line 27.
+ 1 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:53:11 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\miproyecto01\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join('departamentos.*, paises.id=departamentos.id_pais')
+ 2 APPPATH\Models\DepartamentosModel.php(29): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:53:15 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\miproyecto01\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join('departamentos.*, paises.id=departamentos.id_pais')
+ 2 APPPATH\Models\DepartamentosModel.php(29): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:53:17 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\miproyecto01\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join('departamentos.*, paises.id=departamentos.id_pais')
+ 2 APPPATH\Models\DepartamentosModel.php(29): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:54:48 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:54:50 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:54:51 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:54:52 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:55:03 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:55:04 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:55:05 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:55:57 --> Undefined variable $id
+in APPPATH\Controllers\Departamentos.php on line 21.
+ 1 APPPATH\Controllers\Departamentos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Departamentos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:56:16 --> Undefined variable $id
+in APPPATH\Models\DepartamentosModel.php on line 30.
+ 1 APPPATH\Models\DepartamentosModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\DepartamentosModel.php', 30)
+ 2 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:56:17 --> Undefined variable $id
+in APPPATH\Models\DepartamentosModel.php on line 30.
+ 1 APPPATH\Models\DepartamentosModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\DepartamentosModel.php', 30)
+ 2 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:57:28 --> mysqli_sql_exception: Not unique table/alias: 'departamentos' in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `departa...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `departa...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `departa...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `departa...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\miproyecto01\app\Models\DepartamentosModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:57:28 --> Not unique table/alias: 'departamentos'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `departamentos`.*, `departamentos`.`id_pais` as `N_pais`
+FROM `departamentos`
+JOIN `departamentos` ON `paises`.`id`=`departamentos`.`id_pais`
+WHERE `departamentos`.`id_pais` = :departamentos.id_pais:
+AND `estado` = :estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\DepartamentosModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:57:29 --> mysqli_sql_exception: Not unique table/alias: 'departamentos' in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `departa...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `departa...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `departa...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `departa...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\miproyecto01\app\Models\DepartamentosModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:57:29 --> Not unique table/alias: 'departamentos'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `departamentos`.*, `departamentos`.`id_pais` as `N_pais`
+FROM `departamentos`
+JOIN `departamentos` ON `paises`.`id`=`departamentos`.`id_pais`
+WHERE `departamentos`.`id_pais` = :departamentos.id_pais:
+AND `estado` = :estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\DepartamentosModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 02:57:32 --> mysqli_sql_exception: Not unique table/alias: 'departamentos' in C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto01\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `departa...', 0)
+#1 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `departa...')
+#2 C:\xampp\htdocs\miproyecto01\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `departa...')
+#3 C:\xampp\htdocs\miproyecto01\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `departa...', Array, false)
+#4 C:\xampp\htdocs\miproyecto01\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto01\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\miproyecto01\app\Models\DepartamentosModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\miproyecto01\app\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+#8 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+#9 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#10 C:\xampp\htdocs\miproyecto01\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto01\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 02:57:32 --> Not unique table/alias: 'departamentos'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `departamentos`.*, `departamentos`.`id_pais` as `N_pais`
+FROM `departamentos`
+JOIN `departamentos` ON `paises`.`id`=`departamentos`.`id_pais`
+WHERE `departamentos`.`id_pais` = :departamentos.id_pais:
+AND `estado` = :estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\DepartamentosModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Departamentos.php(21): App\Models\DepartamentosModel->obtenerDept()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:58:21 --> Undefined array key "N_pais"
+in APPPATH\Views\departamentos\departamentos.php on line 39.
+ 1 APPPATH\Views\departamentos\departamentos.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "N_pais"', 'APPPATH\\Views\\departamentos\\departamentos.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\departamentos\\departamentos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/departamentos/departamentos', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(25): view('/departamentos/departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:58:22 --> Undefined array key "N_pais"
+in APPPATH\Views\departamentos\departamentos.php on line 39.
+ 1 APPPATH\Views\departamentos\departamentos.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "N_pais"', 'APPPATH\\Views\\departamentos\\departamentos.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\departamentos\\departamentos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/departamentos/departamentos', [], true)
+ 5 APPPATH\Controllers\Departamentos.php(25): view('/departamentos/departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Departamentos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

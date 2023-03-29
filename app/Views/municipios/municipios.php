@@ -104,6 +104,7 @@
                             <span class="input-group-text" id="inputGroup-sizing-sm">Municipio</span>
                             <input type="text" class="form-control" aria-label="Sizing example input"
                                 aria-describedby="inputGroup-sizing-sm" name="muni" id="muni">
+                                
                             <input hidden name="id" id="id">
                             <input hidden name="tp" id="tp">
                         </div>

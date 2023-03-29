@@ -26,7 +26,7 @@
     <table class="table table-bordered table-sm table-striped" id="dataTable" width="90%" cellspacing="0">
         <thead>
             <tr class="table">
-                <th>Id Empleado</th>
+                <th>Id empleado</th>
                 <th>Id salario</th>
                 <th>Nombres</th>
                 <th>Apellidos</th>
@@ -85,9 +85,6 @@
 
                 <div class="modal-body">
 
-                    <input hidden name="id" id="id">
-                    <input hidden name="tp" id="tp">
-
                     <div>
                         <span class="input-group-text">Selecione un empleado</span>
                         <select class="form-select" aria-label="Default select example" name="id_empleado"
@@ -101,17 +98,17 @@
                             </option>
 
                             <?php } ?>
-
                         </select>
+                        <input hidden name="id" id="id">
+                        <input hidden name="tp" id="tp">
                     </div>
                     <br>
                     <div class="input-group input-group-sm mb-3">
 
                         <span class="input-group-text">$</span>
-                        <input type="text" class="form-control"
-                            name="sueldo" id="sueldo">
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                         aria-describedby="inputGroup-sizing-sm" name="sueldo" id="sueldo">
                         <span class="input-group-text">.00</span>
-
                     </div>
 
                     <div class="input-group input-group-sm mb-3">
@@ -155,41 +152,41 @@
 <body>
 
     <script>
-    $('#modal-confirma').on('show.bs.modal', function(e) {
-        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
-    });
+        $('#modal-confirma').on('show.bs.modal', function(e) {
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+        });
 
-    function seleccionaSalario(id, tp) {
-        if (tp == 2) {
-            dataURL = "<?php echo base_url('/salarios/buscar_salario'); ?>" + "/" + id;
-            $.ajax({
-                type: "POST",
-                url: dataURL,
-                dataType: "json",
-                success: function(rs) {
-                    document.getElementById('exampleModalLabel').innerText = "Actualizar salario";
-                    $("#tp").val(2);
-                    $("#id").val(id);
-                    $("#id_empleado").val(rs[0]['iden_empleado']);
-                    $("#periodo").val(rs[0]['periodo']);
-                    $("#sueldo").val(rs[0]['sueldo']);
-                    $("#btn_guardar").text('Actualizar');
-                    $("#SalariosAgregar").modal("show");
-                }
-            })
-        } else {
-            $("#tp").val(1);
-            document.getElementById('exampleModalLabel').innerText = "Agregar salario";
-            $("#id_empleado").val('');
-            $("#sueldo").val('');
-            $("#periodo").val('');
-            $("#btn_guardar").text('Guardar');
-        }
+        function seleccionaSalario(id, tp) {
+            if (tp == 2) {
+                dataURL = "<?php echo base_url('/salarios/buscar_salario'); ?>" + "/" + id;
+                $.ajax({
+                    type: "POST",
+                    url: dataURL,
+                    dataType: "json",
+                    success: function(rs) {
+                        document.getElementById('exampleModalLabel').innerText = "Actualizar salario";
+                        $("#tp").val(2);
+                        $("#id").val(id);
+                        $("#id_empleado").val(rs[0]['iden_empleado']);
+                        $("#periodo").val(rs[0]['periodo']);
+                        $("#sueldo").val(rs[0]['sueldo']);
+                        $("#btn_guardar").text('Actualizar');
+                        $("#SalariosAgregar").modal("show");
+                    }
+                })
+            } else {
+                $("#tp").val(1);
+                document.getElementById('exampleModalLabel').innerText = "Agregar salario";
+                $("#id_empleado").val('');
+                $("#sueldo").val('');
+                $("#periodo").val('');
+                $("#btn_guardar").text('Guardar');
+            }
 
-    };
+        };
 
 
-    $('.close').click(function() {
-        $("#modal-confirma").modal("hide");
-    });
+        $('.close').click(function() {
+            $("#modal-confirma").modal("hide");
+        });
     </script>
