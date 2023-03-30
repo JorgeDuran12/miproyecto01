@@ -83,7 +83,7 @@
                     <div class="modal-body">
 
                         <div>
-                            <select class="form-select" aria-label="Default select example" name="pais" id="pais">
+                            <select class="form-select" aria-label="Default select example" name="pais" id="pais" required>
                                 <option selected>Seleciona un pais</option>
                                 <?php foreach ($pais as $dato) { ?>
                                 <option value="<?php echo $dato['id']; ?>"><?php echo $dato['nombres'];?></option>
@@ -92,7 +92,7 @@
                         </div>
                         <br>
                         <div>
-                            <select class="form-select" aria-label="Default select example" name="dpto" id="dpto">
+                            <select class="form-select" aria-label="Default select example" name="dpto" id="dpto" required>
 
                                 <option selected>Seleciona un departamento</option>
                         
@@ -103,7 +103,7 @@
 
                             <span class="input-group-text" id="inputGroup-sizing-sm">Municipio</span>
                             <input type="text" class="form-control" aria-label="Sizing example input"
-                                aria-describedby="inputGroup-sizing-sm" name="muni" id="muni">
+                                aria-describedby="inputGroup-sizing-sm" name="muni" id="muni" required>
                                 
                             <input hidden name="id" id="id">
                             <input hidden name="tp" id="tp">

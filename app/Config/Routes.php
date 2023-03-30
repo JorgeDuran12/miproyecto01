@@ -29,6 +29,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->get('/', 'Login::index');
 $routes->get('/', 'Principal::index');
 $routes->get('eliminados_paises', 'paises::eliminados');
 $routes->get('eliminados_municipios', 'municipios::eliminados');
