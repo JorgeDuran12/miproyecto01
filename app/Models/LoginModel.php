@@ -13,7 +13,7 @@ class LoginModel extends Model{
     protected $returnType     = 'array';  /* forma en que se retornan los datos */
     protected $useSoftDeletes = false; /* si hay eliminacion fisica de registro */
 
-    protected $allowedFields = ['id_cargo','nombres', 'apellidos','contraseña','nombre_usuario','estado','fecha_crea']; /* relacion de campos de la tabla */
+    protected $allowedFields = ['id_cargo','nombres', 'apellidos','pass','usuario','estado','fecha_crea']; /* relacion de campos de la tabla */
 
     protected $useTimestamps = true; /*tipo de tiempo a utilizar */
     protected $createdField  = 'fecha_crea'; /*fecha automatica para la creacion */
@@ -24,20 +24,21 @@ class LoginModel extends Model{
     protected $validationMessages = [];
     protected $skipValidation    = false;
 
+    public function validar($usuario, $pass)
+    {
+        // Buscar al usuario en la base de datos y verificar la contraseña
+        // Devolver el usuario si las credenciales son válidas, o NULL si no lo son
+        $this->select('usuarios.*');
+        $this->where('estado', 'A');
+        $user = $this->where('usuario', $usuario)->first();
 
-
-    // public function Validar_Usuario($nombre_usuario, $contraseña) {
-    //     $this->select('usuarios.*');
-    //     $this->where('username', $nombre_usuario);
-    //     $this->where('password', $contraseña);
-
-    //     if ($query->num_rows() == 1) {
-    //         return true; // El usuario y la contraseña son válidos
-    //     } else {
-    //         return false; // El usuario y/o la contraseña son incorrectos
-    //     }
-    // }
-
-
+        if ($user && $user['pass'] == $pass) {
+            return $user;
+        } else {
+            return null;
+        }
+        
+        
+    }
 
 }

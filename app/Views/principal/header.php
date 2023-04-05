@@ -52,5 +52,6 @@
                 </li>
             </ul>
         </div>
+        <a class="btn btn-warning" href="<?=('Cerrar_sesion') ?>" role="button">Cerrar sesión</a>
     </div>
 </nav>

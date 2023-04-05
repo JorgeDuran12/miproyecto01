@@ -43,6 +43,8 @@ $routes->post('buscar_municipioxdepartamento/(:num)', 'municipios::buscar_Munici
 $routes->post('insertar_municipio', 'municipios::insertar');
 $routes->post('eliminar_municipio/(:num)', 'municipios::eliminar/$1');
 
+$routes->post('login', 'Login::login');
+$routes->get('Cerrar_sesion', 'Login::Cerrar_sesion');
 
 /*
  * --------------------------------------------------------------------

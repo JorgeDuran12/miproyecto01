@@ -7,34 +7,32 @@
 </head>
 
 
-<body class="all">
+<body>
 
-    <header>
-        <!-- <img src="<?php echo base_url('./img/logo1.png');?>" class="img1"> -->
-        <div class="titulos">
-            <h1><?php echo $Title;?></h1>
-            <!-- <a href="https://sena.territorio.la/cms/index.php" target="_blank"> -->
-                <!-- <img src="<?php echo base_url('./img/sena.png');?>" class="img2"> -->
-            <!-- </a> -->
-        </div>
-    </header>
-
+    
     <div class="form">
+        
+            <img src="<?= ('../img/logo1.png');?>" class="img">
 
-        <div id="cont-form">
+            <div class="cont-form">
+                <h5 class="card-title">Login</h5>
+                <p class="card-text">
 
-            <form method="POST" action="<?php echo base_url('login/validar'); ?>">
-                <label for="usuario">Usuario:</label>
-                <input type="text" id="user" name="user" required>
+                <form method="POST" action="<?=base_url('login');?>" enctype="multipart/form-data">
 
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" id="pass" name="pass" required>
+                    <div class="form-group">
+                        <label for="usu">Usuario</label>
+                        <input id="usu" class="form-control" type="text" name="usu" required>
+                    </div>
 
-                <button type="submit">Iniciar sesión</button>
-            </form>
-
+                    <div class="form-group">
+                        <label for="pass">Contraseña</label>
+                        <input id="pass" class="form-control" type="password" name="pass" required>
+                    </div>
+                    <button class="btn btn-success" type="submit">Iniciar sesión</button>
+                </form>
+                </p>
+            </div>
         </div>
-
-    </div>
 
 </body>

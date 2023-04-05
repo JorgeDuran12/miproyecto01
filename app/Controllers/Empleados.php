@@ -16,6 +16,7 @@ class Empleados extends BaseController
     protected $muni;
     protected $pais;
     protected $dpto;
+    
     public function __construct()
     {
         $this ->dpto = new DepartamentosModel();
