@@ -50,8 +50,11 @@
                         <li><a class="dropdown-item" href="<?php echo base_url('/salarios'); ?>">Salarios</a></li>
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo base_url('/sadmin'); ?>">Usuarios</a>
+                </li>
             </ul>
         </div>
-        <a class="btn btn-warning" href="<?=('Cerrar_sesion') ?>" role="button">Cerrar sesión</a>
+        <a class="btn btn-warning" href="<?=('cerrar_sesion') ?>" role="button">Cerrar sesión</a>
     </div>
 </nav>

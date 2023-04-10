@@ -29,8 +29,8 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Login::index');
-$routes->get('/', 'Principal::index');
+$routes->get('/', 'Usuarios::index');
+$routes->get('/header', 'Principal::index');
 $routes->get('eliminados_paises', 'paises::eliminados');
 $routes->get('eliminados_municipios', 'municipios::eliminados');
 $routes->get('eliminados_departamentos', 'departamentos::eliminados');
@@ -43,8 +43,11 @@ $routes->post('buscar_municipioxdepartamento/(:num)', 'municipios::buscar_Munici
 $routes->post('insertar_municipio', 'municipios::insertar');
 $routes->post('eliminar_municipio/(:num)', 'municipios::eliminar/$1');
 
-$routes->post('login', 'Login::login');
-$routes->get('Cerrar_sesion', 'Login::Cerrar_sesion');
+
+$routes->post('login', 'Usuarios::login');
+$routes->get('cerrar_sesion', 'Usuarios::cerrar_sesion');
+$routes->get('crear_cuenta', 'Usuarios::crear_cuenta');
+$routes->post('guardar', 'Usuarios::guardar');
 
 /*
  * --------------------------------------------------------------------

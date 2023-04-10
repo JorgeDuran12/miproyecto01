@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  form button[type="submit"] {
+    transform: translateY(0);
+    transition: transform 0.5s;
+  }
+  
+  form button[type="submit"]:hover {
+    transform: translateY(-5px);
+  }
+  

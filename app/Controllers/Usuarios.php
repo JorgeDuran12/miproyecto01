@@ -3,15 +3,27 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\LoginModel;
+use App\Models\UsuariosModel;
 
-class Login extends BaseController    
+class Usuarios extends BaseController    
 {    
+    protected $user;
+
+
+    public function __construct()
+    {
+        $this->user = new UsuariosModel();
+
+    }
+
+
     public function index()
     {
         // Mostrar la vista de inicio de sesión
-        return view('principal/login');
+        $data['logo1'] =base_url('img/logo1.png');
+        return view('usuarios/login', $data);
     }
+
 
     public function login()
     {
@@ -19,8 +31,7 @@ class Login extends BaseController
         $usuario = $this->request->getPost('usu');
         $pass = $this->request->getPost('pass');
         
-        $Logue = new LoginModel();
-        $user = $Logue->validar($usuario, $pass);
+        $user = $this ->user -> validar($usuario, $pass);
     
         if ($user) {
 
@@ -33,7 +44,7 @@ class Login extends BaseController
             $sesion_activa->set([
                 'id' => $user['id'],
                 'usuario' => $user['usuario'],
-                'inicio_sesion' => true
+                // 'inicio_sesion' => true
             ]);
     
             return redirect()->to('/principal');
@@ -43,7 +54,8 @@ class Login extends BaseController
         }
     }
 
-    public function Cerrar_sesion()
+
+    public function cerrar_sesion()
     {
         // Cerrar la sesión del usuario y redirigir a la página de inicio de sesión
         $sesion_activa = session();
@@ -52,10 +64,32 @@ class Login extends BaseController
         
         $sesion_activa->destroy();
 
-        return redirect()->to('/login');
+        return redirect()->to('/');
     }
 
-   
+
+    public function crear_cuenta()
+    {
+        return view('usuarios/crear');
+    }
+
+    
+    public function guardar(){   
+
+        $this->user->save([    
+                        
+            'nombres' => $this->request->getPost('nombre'),
+            'apellidos' => $this->request->getPost('apellido'),
+            'usuario' => $this->request->getPost('NombreUsuario'),
+            'pass' => $this->request->getPost('pass'),
+            'email' => $this->request->getPost('email')
+
+        ]);
+
+        return redirect()->to('/');
+
+    }
+
 }
 
    

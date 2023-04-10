@@ -1,6 +1,3 @@
-body{
-  overflow: hidden;
-}
 
 .form {
   display: flex;
@@ -35,7 +32,6 @@ input {
   height: 40px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
 }
 
 button {
@@ -43,18 +39,14 @@ button {
   width: 100%;
   height: 40px;
   margin-top: 20px;
-  background-color: #4CAF50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #55be58;
+  
 }
 
 .card-title{
   font-size: 30px;
+}
+
+a:link{
+  text-decoration: none;
+  font-size: 15px;
 }

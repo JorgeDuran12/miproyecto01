@@ -4,7 +4,7 @@ namespace App\Models; //Reservamos el espacio de nombre de la ruta app\models
 
 use CodeIgniter\Model;
 
-class LoginModel extends Model{
+class UsuariosModel extends Model{
     protected $table= 'usuarios'; /* nombre de la tabla modelada/*/
     protected $primaryKey = 'id';
 
@@ -13,7 +13,7 @@ class LoginModel extends Model{
     protected $returnType     = 'array';  /* forma en que se retornan los datos */
     protected $useSoftDeletes = false; /* si hay eliminacion fisica de registro */
 
-    protected $allowedFields = ['id_cargo','nombres', 'apellidos','pass','usuario','estado','fecha_crea']; /* relacion de campos de la tabla */
+    protected $allowedFields = ['id_cargo','nombres', 'apellidos','pass','usuario','estado','email', 'fecha_crea']; /* relacion de campos de la tabla */
 
     protected $useTimestamps = true; /*tipo de tiempo a utilizar */
     protected $createdField  = 'fecha_crea'; /*fecha automatica para la creacion */
@@ -37,8 +37,15 @@ class LoginModel extends Model{
         } else {
             return null;
         }
-        
-        
     }
+
+    public function buscacargo(){
+        $this->select('usuarios.*, cargos.nombre as cargo');
+        $this->join('cargos', 'usuarios.id_cargo = cargos.id ');
+        $this->where('usuarios.estado', 'A');
+        $datos = $this->findAll();   
+        return $datos;
+      }
+  
 
 }
