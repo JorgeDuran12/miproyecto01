@@ -1,15 +1,14 @@
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="<?php echo base_url('/css/login.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?>">
     <script src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
+    <link rel="stylesheet" href="<?php echo base_url('/css/login0.css'); ?>">
     <script src="<php echo base_url('/css/jquery-3.6.0.js'); ?>"> </script>
 
 </head>
 
 
 <body>
-
 
     <div class="form">
 
@@ -38,7 +37,5 @@
 
         </div>
     </div>
-
-    
 
 </body>

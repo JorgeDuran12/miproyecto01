@@ -1,0 +1,63 @@
+/* Personalización del formulario */
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 120px auto;
+  width: 80%;
+}
+
+.card-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(16, 15, 15, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #368f2c;
+  cursor: pointer;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  .form {
+    width:85%;
+  }
+}
+
+.input-group-prepend {
+  width: unset;
+}

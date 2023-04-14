@@ -1,0 +1,9 @@
+CRITICAL - 2023-04-14 21:40:42 --> Invalid file: "registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('registro', [], true)
+ 3 APPPATH\Controllers\Usuarios.php(115): view('registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -27,30 +27,34 @@ class Usuarios extends BaseController
 
     public function login()
     {
-        // Validar el formulario de inicio de sesión y autenticar al usuario
-        $usuario = $this->request->getPost('usu');
-        $pass = $this->request->getPost('pass');
+        if($this->request->getMethod() == "post" ) {
+
+            // Validar el formulario de inicio de sesión y autenticar al usuario
+            $usuario = $this->request->getPost('usu');
+            $pass = $this->request->getPost('pass');
+            
+            $user = $this ->user -> validar($usuario, $pass);
         
-        $user = $this ->user -> validar($usuario, $pass);
-    
-        if ($user) {
+            if ($user) {
 
-            //session() es una función de CodeIgniter que se utiliza para acceder al objeto de sesión actual. El objeto de sesión es una instancia de la clase CodeIgniter\Session\Session que se utiliza para interactuar con las variables de sesión almacenadas para el usuario actual.
+                //session() es una función de CodeIgniter que se utiliza para acceder al objeto de sesión actual. 
 
-            $sesion_activa = session();
+                $sesion_activa = session();
 
-            //$session->set() : es una función de la biblioteca de sesión de CodeIgniter que se utiliza para establecer los valores de sesión. Recibe un arreglo asociativo como parámetro, donde las claves representan los nombres de las variables de sesión y los valores representan los valores de esas variables.
+                //$session->set() : es una función de la biblioteca de sesión de CodeIgniter que se utiliza para establecer los valores de sesión. 
+            
+                $sesion_activa ->set ([
+                    'id' => $user['id'],
+                    'usuario' => $user['usuario'],
+                    'inicio_sesion' => true
+                ]);
+        
+                return redirect()->to('/principal');
 
-            $sesion_activa->set([
-                'id' => $user['id'],
-                'usuario' => $user['usuario'],
-                // 'inicio_sesion' => true
-            ]);
-    
-            return redirect()->to('/principal');
+            }else {
+                return redirect()->to('/');
+            }
 
-        }else {
-            return redirect()->to('/');
         }
     }
 
@@ -68,28 +72,30 @@ class Usuarios extends BaseController
     }
 
 
-    public function crear_cuenta()
-    {
+    public function crear_cuenta(){
+
         return view('usuarios/crear');
     }
 
     
     public function guardar(){   
 
-        $this->user->save([    
-                        
-            'nombres' => $this->request->getPost('nombre'),
-            'apellidos' => $this->request->getPost('apellido'),
-            'usuario' => $this->request->getPost('NombreUsuario'),
-            'pass' => $this->request->getPost('pass'),
-            'email' => $this->request->getPost('email')
+        if ($this->request->getMethod() == "post" ) {
 
-        ]);
+            $this->user->save([    
+                            
+                'nombres' => $this->request->getPost('nombre'),
+                'apellidos' => $this->request->getPost('apellido'),
+                'usuario' => $this->request->getPost('NombreUsuario'),
+                'pass' => $this->request->getPost('pass'),
+                'email' => $this->request->getPost('email')
 
-        return redirect()->to('/');
+            ]);
 
+            return redirect()->to('/');
+        }
     }
-
+    
 }
 
    
