@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="<?php echo base_url('/css/header1.css'); ?> ">
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?> ">
     <script rel="stylesheet" src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?> "></script>
+    <link rel="stylesheet" href="<?php echo base_url('/css/header1.css'); ?> ">
 </head>
 <header>
     <img src="<?php echo base_url('./img/logo1.png');?>" class="img1">

@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?>">
     <script src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
-    <link rel="stylesheet" href="<?php echo base_url('/css/crear1.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('/css/crear3.css'); ?>">
     <script src="<?php echo base_url('/css/jquery-3.6.0.js'); ?>"> </script>
 
 </head>
@@ -22,7 +22,7 @@
                     <label for="validationCustom03" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
                     <div class="invalid-feedback">
-                        por favor, ingrese su nombre!
+                        Por favor, ingrese su nombre!
                     </div>
                 </div>
 
@@ -30,17 +30,16 @@
                     <label for="validationCustom03" class="form-label">Apellidos</label>
                     <input type="text" class="form-control" id="apellido" name="apellido" required>
                     <div class="invalid-feedback">
-                        por favor, ingrese sus apellidos!
+                        Por favor, ingrese sus apellidos!
                     </div>
                 </div>
 
                 <div class="col-md-4">
-                    <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+                    <label for="validationCustom05" class="form-label">Nombre de usuario</label>
                     <div class="input-group has-validation d-flex">
-                        <input type="text" class="form-control" id="NombreUsuario" name="NombreUsuario"
-                            aria-describedby="inputGroupPrepend" required>
+                        <input type="text" class="form-control" id="NombreUsuario" name="NombreUsuario" required>
                         <div class="invalid-feedback">
-                            por favor, ingrese su nombre de usuario!
+                            Por favor, ingrese su nombre de usuario!
                         </div>
                     </div>
                 </div>
@@ -49,12 +48,12 @@
                     <label for="validationCustom03" class="form-label">Email</label>
                     <input type="text" class="form-control" id="email" name="email" required>
                     <div class="invalid-feedback">
-                        por favor, ingrese su email o correo electronico!
+                        Por favor, ingrese su email o correo electronico!
                     </div>
                 </div>
 
                 <div class="col-md-4">
-                    <label for="validationCustom05" class="form-label">Contraseña</label>
+                    <label for="validationCustom03" class="form-label">Contraseña</label>
                     <input type="password" class="form-control" id="pass" name="pass" required>
                     <div class="invalid-feedback">
                         Este campo es obligatorio!
@@ -62,7 +61,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <label for="validationCustom05" class="form-label">Confirmar Contraseña</label>
+                    <label for="validationCustom03" class="form-label">Confirmar Contraseña</label>
                     <input type="password" class="form-control" id="confirmar_Pass" name="confirmar_Pass" required>
 
                     <div class="invalid-feedback">
@@ -106,15 +105,14 @@ const pass = document.getElementById('pass');
 const confirmar_Pass = document.getElementById('confirmar_Pass');
 
 function ValidarContraseñas() {
-    
-        if (pass.value === confirmar_Pass.value) {
-            confirmar_Pass.classList.remove('is-invalid');
-            confirmar_Pass.classList.add('is-valid');
-        } else {
-            confirmar_Pass.classList.remove('is-valid');
-            confirmar_Pass.classList.add('is-invalid');
-        }
+    if (pass.value === confirmar_Pass.value && confirmar_Pass.value !== "") {
+        confirmar_Pass.classList.remove('is-invalid');
+        confirmar_Pass.classList.add('is-valid');
+    } else {
+        confirmar_Pass.classList.remove('is-valid');
+        confirmar_Pass.classList.add('is-invalid');
     }
+}
 pass.addEventListener('input', ValidarContraseñas);
 confirmar_Pass.addEventListener('input', ValidarContraseñas);
 

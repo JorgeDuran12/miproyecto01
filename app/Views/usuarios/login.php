@@ -33,7 +33,7 @@
             </form>
             </p>
 
-            <h6> ¿Aun no tienes cuenta? <a href="<?= base_url('crear_cuenta')?>">Crear cuenta</a> </h6>
+            <h6> ¿Aun no tienes cuenta? <a href="<?= base_url('crear_cuenta')?>">Entrar aqui</a> </h6>
 
         </div>
     </div>

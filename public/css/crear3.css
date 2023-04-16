@@ -1,7 +1,7 @@
-/* Personalización del formulario */
 .form {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 120px auto;
   width: 80%;
 }
@@ -24,8 +24,8 @@
   border-radius: 5px;
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
   padding: 10px;
+  width: 100%;
 }
 
 .form-control:focus {
@@ -47,17 +47,12 @@
   cursor: pointer;
 }
 
-.invalid-feedback {
-  color: red;
-}
-
-/* Media queries para pantallas pequeñas */
 @media screen and (max-width: 767px) {
   .form {
-    width:85%;
+    width:75%;
   }
 }
 
-.input-group-prepend {
-  width: unset;
-}
+/* .invalid-feedback {
+  color: red;
+} */
