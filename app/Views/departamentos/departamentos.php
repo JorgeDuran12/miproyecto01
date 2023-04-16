@@ -33,26 +33,26 @@
             </thead>
             <tbody class="tbody">
                 <?php foreach ($dept as $dato) { ?>
-                    <tr>
-                        <td> <?php echo $dato['id']; ?> </td>
-                        <td> <?php echo $dato['nombre']; ?> </td>
-                        <td> <?php echo $dato['id_pais']; ?> </td>
-                        <td> <?php echo $dato['estado']; ?> </td>
+                <tr>
+                    <td> <?php echo $dato['id']; ?> </td>
+                    <td> <?php echo $dato['nombre']; ?> </td>
+                    <td> <?php echo $dato['id_pais']; ?> </td>
+                    <td> <?php echo $dato['estado']; ?> </td>
 
-                        <td id="inp_edita" style="height:0.2rem;width:1rem;">
-                            <input href="#" onclick="seleccionaDpto(<?php echo $dato['id'] . ',' . 2 ?>);"
-                                data-bs-toggle="modal" data-bs-target="#DptoModal" type="image"
-                                src="<?php echo base_url(); ?>/icons/escritura.png" width="16" height="16"
-                                title="Editar Registro">
-                            </input>
-                        </td>
-                        <td style="height:0.2rem;width:1rem;"><input href="#"
-                                data-href="<?php echo base_url('/departamentos/eliminar') . '/' .$dato['id']. '/' .'E'; ?>"
-                                data-bs-toggle="modal" data-bs-target="#modal-confirma" type="image"
-                                src="<?php echo base_url(); ?>/icons/borrar.png" width="16" height="16"
-                                title="Eliminar Registro">
-                            </input>
-                        </td>
+                    <td id="inp_edita" style="height:0.2rem;width:1rem;">
+                        <input href="#" onclick="seleccionaDpto(<?php echo $dato['id'] . ',' . 2 ?>);"
+                            data-bs-toggle="modal" data-bs-target="#DptoModal" type="image"
+                            src="<?php echo base_url(); ?>/icons/escritura.png" width="16" height="16"
+                            title="Editar Registro">
+                        </input>
+                    </td>
+                    <td style="height:0.2rem;width:1rem;"><input href="#"
+                            data-href="<?php echo base_url('/departamentos/eliminar') . '/' .$dato['id']. '/' .'E'; ?>"
+                            data-bs-toggle="modal" data-bs-target="#modal-confirma" type="image"
+                            src="<?php echo base_url(); ?>/icons/borrar.png" width="16" height="16"
+                            title="Eliminar Registro">
+                        </input>
+                    </td>
                     <?php } ?>
                 </tr>
 
@@ -74,8 +74,9 @@
                     <div class="modal-body">
 
                         <div>
-                            <select class="form-select" aria-label="Default select example" name="pais" id="pais" required>
-                                <option selected>Seleciona un pais</option>
+                          
+                            <select class="form-select" aria-label="Default select example" name="pais" id="pais"
+                                required>
                                 <?php foreach ($paises as $dato) { ?>
                                 <option value="<?php echo $dato['id']; ?>"><?php echo $dato['nombres'];?></option>
 
@@ -157,7 +158,7 @@ function seleccionaDpto(id, tp) {
 
     }
 };
-    $('.close').click(function() {
-        $("#modal-confirma").modal("hide");
-    });
+$('.close').click(function() {
+    $("#modal-confirma").modal("hide");
+});
 </script>
