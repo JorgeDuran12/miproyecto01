@@ -24,21 +24,6 @@ class UsuariosModel extends Model{
     protected $validationMessages = [];
     protected $skipValidation    = false;
 
-    public function validar($usuario, $pass)
-    {
-        // Buscar al usuario en la base de datos y verificar la contraseña
-        // Devolver el usuario si las credenciales son válidas, o NULL si no lo son
-        $this->select('usuarios.*');
-        $this->where('estado', 'A');
-        $user = $this->where('usuario', $usuario)->first();
-
-        if ($user && $user['pass'] == $pass) {
-            return $user;
-        } else {
-            return null;
-        }
-    }
-
     public function buscacargo(){
         $this->select('usuarios.*, cargos.nombre as cargo');
         $this->join('cargos', 'usuarios.id_cargo = cargos.id ');
@@ -46,6 +31,16 @@ class UsuariosModel extends Model{
         $datos = $this->findAll();   
         return $datos;
       }
-  
+
+      
+      public function Auth_usuario($nombreCorto)
+      {
+        $this->select('usuarios.*');
+        $this->where('usuario', $nombreCorto);
+        $datos = $this->first();
+          return $datos;
+
+          // o puedes agregar esto == "return $this->where('nombre_corto', $nombreCorto)->first();"//
+      }
 
 }
