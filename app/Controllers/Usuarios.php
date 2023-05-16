@@ -27,36 +27,35 @@ class Usuarios extends BaseController
 
     public function login()
     {
-        if($this->request->getMethod() == "post" ) {
+        $user = $this->request->getPost('usu');
+        $pass = $this->request->getPost('pass');
 
-            // Validar el formulario de inicio de sesión y autenticar al usuario
-            $usuario = $this->request->getPost('usu');
-            $pass = $this->request->getPost('pass');
-            
-            $user = $this ->user -> validar($usuario, $pass);
+        $usuariosModel = new UsuariosModel();
+
+        $usuario = $usuariosModel->Auth_usuario($user);
+
+        if (isset($usuario)) {
+
+            if ($usuario && password_verify($pass, $usuario['pass'])) {
         
-            if ($user) {
-
-                //session() es una función de CodeIgniter que se utiliza para acceder al objeto de sesión actual. 
-
-                $sesion_activa = session();
-
-                //$session->set() : es una función de la biblioteca de sesión de CodeIgniter que se utiliza para establecer los valores de sesión. 
-            
-                $sesion_activa ->set ([
-                    'id' => $user['id'],
-                    'usuario' => $user['usuario'],
-                    'inicio_sesion' => true
+                $session = session();
+                $session->set([
+                    'id', $usuario['id'],
+                    'usuario', $usuario['usuario'],
+                    'logged_in' => true
                 ]);
-        
+            
                 return redirect()->to('/principal');
 
-            }else {
-                return redirect()->to('/');
-            }
-
+                }else{
+                    echo "La contraseña es incorrecta";
+                }
+        }else{
+            // return redirect()->back()->with('error', 'Credenciales inválidas');
+            echo "este usuario no existe, incorrecto";
         }
     }
+
 
 
     public function cerrar_sesion()
@@ -82,12 +81,15 @@ class Usuarios extends BaseController
 
         if ($this->request->getMethod() == "post" ) {
 
+            $pass = $this->request->getPost('pass');
+            $hass = password_hash($pass, PASSWORD_DEFAULT);
+
             $this->user->save([    
                             
                 'nombres' => $this->request->getPost('nombre'),
                 'apellidos' => $this->request->getPost('apellido'),
                 'usuario' => $this->request->getPost('NombreUsuario'),
-                'pass' => $this->request->getPost('pass'),
+                'pass' => $hass ,
                 'email' => $this->request->getPost('email')
 
             ]);
